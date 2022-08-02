@@ -10,13 +10,51 @@
         <title></title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="./style.css">
     </head>
     <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-        
+        <div class="body">
+            <div class="image-container"> 
+                <img class="logo-icon" src="./src/technology.png" alt="">
+                <div class="logo-name">Bude</div>
+            </div>
+            <form action="#" method="get">
+                <div>
+                    <label for="fname">First Name</label>
+                </div>
+                <input type="text" id="fname" name="fname">
+                
+                <div>
+                    <label for="lname">Last Name</label>
+                </div>
+                <input type="text" id="lname" name="lname">
+                
+                <div>
+                    <label for="mail">E-Mail</label>
+                </div>
+                <input type="email" id="mail" name="mail" required>
+                
+                <div>
+                    <label for="phone">Phone number</label>
+                </div>
+                <input type="tel" id="phone" name="phone">
+                
+                <div>
+                    <label for="password">Password</label>
+                </div>
+                <input type="password" id="password" name="password" required>
+
+                <div>
+                    <label for="confirm_password">Confirm Password</label>
+                </div>
+                <input type="password" id="confirm_password" name="confirm_password" required>
+                <div class="message-box"></div>
+                <button type="submit">Create Account</button>
+                
+
+            </form>
+        </body>        
         <script src="./index.js" async defer></script>
+    </div>
     </body>
 </html>
